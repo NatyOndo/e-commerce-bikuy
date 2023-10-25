@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'TwCenMTStd Regular';
+  background: linear-gradient(to bottom right, #036D89, #E9E9E9);
+}
+
+nav {
+  font-family: 'TwCenMTStd Regular';
+  color: #E9E9E9;
+  background-color: #D26015;
+  width: 100%;
+  display: flex;
+}
+
+@font-face {
+  font-family: 'TwCenMTStd Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url(tw-cen-mt-std-cufonfonts-webfont/TwCenMTStd.woff);
+}
+
+.header {
+  font-family: 'TwCenMTStd Regular';
+  background-color: #036D89;
+  width: 100%;
+  height: auto;
+}
+
+.top_container {
+  background-color: blue;
+  font-family: 'TwCenMTStd Regular';
+}
+
+img {
+  width: 100%;
+  height: 92%;
+}
+
+td {
+  width: 33.3%;
+  text-align: center;
+}
+
+#logo {
+  width: 50%;
+  height: 50%;
+}
+
+/* hearder section */
+.cart-And-Login-Container {
+  height: 100%;
+  width: 60%;
+  margin-left: 40%;
+}
+
+.a {
+  text-decoration: none;
+  color: white;
+}
+
+.cart-And-Login-Container {
+  display: flex;
+  align-items: center;
+}
+
+.loginAndRegister {
+  border-radius: 60px;
+  background-color: #D26015;
+  color: #fff;
+  width: 40%;
+  height: 20%;
+}
+
+/* Navigation bar Section */
+.navbar-nav {
+  width: 100%;
+}
+.fa-shopping-cart{
+  color: #F7D716;
+}
+.nav-item {
+  padding-left: 5%;
+  font-size: 30px;
+  align-items: center;
+}
+
+.collapse {
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  width: 35%;
+  height: 35px;
+  padding-right: 2%;
+}
+
+/* *************************Middle containersection***************************** */
+
+.small-img-group{
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-group{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+.small-img-col{
+  width: 100%;
+}
+
+.smallSingleImage{
+  height: 150px;
+}
+
+.sProduct-middle-container select{
+  display: block;
+  padding: 5px 10px;
+}
+
+.sProduct-middle-container input{
+  width: 50px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+      /* Removing the outline */
+.sProduct-middle-container input:focus{
+  outline: none;
+}
+
+.btn-warning{
+  color: white;
+  background-color: #D26015;
+}
+ /* products */
+
+ .product-img{
+   width: 100%;
+   height: 300px;
+ }
+
+.product{
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.product img{
+  width: 100%;
+  height: 100%;
+  padding: 10px 30px;
+  transition: 0.0s all;
+}
+
+.product:hover img{
+  opacity: 0.7;
+}
+      /* when hovering on a product higlight it */
+.product .buy-btn{
+  background-color: #036D89;
+  color: white;
+  transform: translatey(20px);
+  opacity: 0;   /* hide the button */
+  transition: 0.3s all;
+}
+
+  .product:hover .buy-btn{ /* Popping out the button */
+  color: white;
+  transform: translatey(0);
+  opacity: 1;   /* hide the button */
+}
+.star{
+  padding: 5px 0;
+}
+.star i{
+  font-size: 0.8rem;
+  color: goldenrod;
+}
+
+/* **************************Bottom Section************************ */
+
+.bottom{
+  font-family: 'TwCenMTStd Regular';
+  background-color: #036D89;
+  width: 100%;
+  height: auto;
+  margin-top: 50;
+}
+
+.bottom2{
+  font-family: 'TwCenMTStd Regular';
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: #D26015;
+}
+.paymentMeth{
+  color: #E9E9E9;
+  padding-left: 10%;
+}
+.paymentIcons-Container{
+  margin: auto auto auto 41%;
+  width: 20%;
+}
+.bottom3{
+  font-family: 'TwCenMTStd Regular';
+  width: 100%;
+  height: 70px;
+  background-color: #036D89;
+}
+
+.Bottom_description{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.Bottom_description_container{
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.Bottom_description_container_children{
+  width: 350px;
+}
+/* Scrollbar section */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;

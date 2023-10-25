@@ -1,0 +1,327 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'TwCenMTStd Regular';
+  background: linear-gradient(to bottom right, #036D89, #EFEAD8);
+}
+button{
+  height: auto;
+}
+nav {
+  font-family: 'TwCenMTStd Regular';
+  color: #E9E9E9;
+  background-color: #D26015;
+  width: 100%;
+  display: flex;
+}
+
+@font-face {
+  font-family: 'TwCenMTStd Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url(tw-cen-mt-std-cufonfonts-webfont/TwCenMTStd.woff);
+}
+
+.invalid-feedback{
+  color: yellow;
+}
+
+.header {
+  font-family: 'TwCenMTStd Regular';
+  background-color: #036D89;
+  width: 100%;
+  height: auto;
+}
+
+.top_container {
+  font-family: 'TwCenMTStd Regular';
+}
+
+img {
+  width: 100%;
+  height: 92%;
+}
+
+td {
+  width: 33.3%;
+  text-align: center;
+}
+
+#logo {
+  width: 50%;
+  height: 50%;
+}
+
+.btn{
+  height: 50px;
+}
+/* *************************************hearder section******************************* */
+.cart-And-Login-Container{
+  height: 100%;
+  width: 60%;
+  margin-left: 40%;
+}
+
+.a{
+  text-decoration: none;
+  color: white;
+}
+.fa-shopping-cart{
+  color: yellow;
+
+}
+.cart-icon{
+  width: 30%;
+}
+
+.cart-And-Login-Container{
+  display: flex;
+  align-items: center;
+}
+
+.loginAndRegister{
+  border-radius: 60px;
+  background-color: #D26015;
+  color: #fff;
+  width: 40%;
+  height: 20%;
+}
+/* Navigation bar Section */
+.navbar-nav{
+  width: 100%;
+}
+.nav-item{
+  padding-left: 5%;
+  font-size: 30px;
+  align-items: center;
+}
+.collapse{
+  align-items: center;
+}
+.form-group{
+  display: flex;
+  width: 35%;
+  height: 35px;
+  padding-right: 2%;
+
+}
+
+.dropdown{
+  position: relative;
+  width: 40%;
+  padding-left: 5px;
+  background-color: #036D89;
+
+  cursor: pointer;
+}
+.default-option{
+  padding: 2% 3%;
+}
+
+.dropdown-list ul{
+  list-style: none;
+  background-color: #fff;
+  color: #696969;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  border-radius: 15px;
+  display: none;
+}
+
+.dropdown-list ul.active{
+  display: block;
+}
+
+.dropdown-list ul li{
+  padding: 10px 10px 10px 1px;
+}
+
+.dropdown-list ul li i{
+  margin-right: 5px;
+}
+
+.dropdown::before{
+  content: "";
+  border-width: 6px 6px 0 6px;
+  border-style: solid;
+  border-color: white transparent;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+}
+
+.dropdown-list ul li::before{
+  content: "";
+  border-width: 0 8px 8px 8px;
+  border-style: solid;
+  border-color: #E9E9E9 transparent;
+  position: absolute;
+  bottom: 100%;
+  right: 20px;
+}
+
+.dropdown-list ul li:hover{
+  background-color: #E9E9E9 transparent;
+  color: #D26015;
+  font-weight: bold;
+  border-radius: 5px;
+}
+/* **************dropdown shop list***************************************** */
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #D26015;
+  color: #E9E9E9;
+  padding: 10px;
+  font-size: 30px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.d1 {
+  position: relative;
+  display: inline-block;
+  background-color: #D26015;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  font-size: 20px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #FF5B00;}
+
+/* Show the dropdown menu */
+.show {
+  display: block;
+}
+
+
+/* *******************************middle section***************************************************************** */
+.ma{
+  width: 70%;
+  margin-left: 15%;
+  margin-right:15%;
+  height: auto;
+  color: #FEF9EF;
+  margin-top: 20px;
+  background: linear-gradient(to bottom right, #036D89, #79DAE8);
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: #036D89;
+}
+hr{
+  width: 100%;
+  style: solid;
+}
+h4{
+  color: white
+}
+.a2{
+  text-decoration: none;
+  color: #FEF9EF;
+}
+.a2:hover{
+  color:  #D26015
+}
+.myAccount{
+  width: 100%;
+  padding:50px;
+}
+
+
+
+
+
+
+/* **************************Bottom Section************************ */
+
+.bottom{
+  font-family: 'TwCenMTStd Regular';
+  background-color: #036D89;
+  width: 100%;
+  height: auto;
+  margin-top: 50;
+}
+
+.bottom2{
+  font-family: 'TwCenMTStd Regular';
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: #D26015;
+}
+.paymentMeth{
+  color: #E9E9E9;
+  padding-left: 10%;
+}
+.paymentIcons-Container{
+  margin: auto auto auto 41%;
+  width: 20%;
+}
+.bottom3{
+  font-family: 'TwCenMTStd Regular';
+  width: 100%;
+  height: 70px;
+  background-color: #036D89;
+}
+
+.Bottom_description{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Bottom_description_div_children{
+  width: 25%;
+}
+.Bottom_description_container{
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* ****************************Scrollbar section************************************ */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;

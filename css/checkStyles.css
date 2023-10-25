@@ -1,0 +1,36 @@
+body{
+  background: linear-gradient(to bottom right, #036D89, #E9E9E9);
+}
+
+nav {
+  font-family: 'TwCenMTStd Regular';
+  color: #E9E9E9;
+  background-color: #D26015;
+  width: 100%;
+  display: flex;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+.fa-shopping-cart{
+  color: #F7D716;
+}
+.nav-item {
+  padding-left: 5%;
+  font-size: 30px;
+  align-items: center;
+}
+
+.collapse {
+  align-items: center;
+}
+
+.checkHeader{
+  color: #F7D716;
+}
+
+.orderBtn{
+  background-color: #D26015;
+  color: white;
+}

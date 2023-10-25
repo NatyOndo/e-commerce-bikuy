@@ -1,0 +1,466 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'TwCenMTStd Regular';
+}
+/* Navbar characteristics */
+nav{
+  font-family: 'TwCenMTStd Regular';
+  color: #E9E9E9;
+  background-color: #D26015;
+  width: 100%;
+  display: flex;
+}
+.checkbtn{
+  font-size: 30px;
+  color:red;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor:pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+/* importing font family */
+@font-face{
+  font-family: "cassannet_plus_regular-webfont";
+  src: url(Cassannet-Plus-Regular/webfont/CASSANNET-PLUS-Regular-Webfont/cassannet_plus_regular-webfont.woff2);
+}
+@font-face {
+    font-family: 'TwCenMTStd Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url(tw-cen-mt-std-cufonfonts-webfont/TwCenMTStd.woff);
+    }
+
+  /* Calling the header class to give it some characteristics */
+.header{
+  font-family: 'TwCenMTStd Regular';
+  background-color: #036D89;
+  width: 100%;
+  height: auto;
+}
+.products{
+  background-color: pink;
+  width: 100%;
+}
+
+.top_container{
+  position: fixed;
+  background-color: #EAF6F6;
+  font-family: 'TwCenMTStd Regular';
+}
+/* setting features for the middle container */
+.middle_container{
+  font-family: 'TwCenMTStd Regular';
+  width: 92%;
+  height: auto;
+  margin: 0 0 0 4%;
+}
+.imgHeader{
+
+  width: 100%;
+  height: 100%;
+}
+/* setting the height of the image in head of the home page by calling
+at its ID*/
+#imageHead{
+
+   height: 92%;
+}
+img{
+  width: 100%;
+  height: 92%;
+}
+
+td{
+  width: 33.3%;
+  text-align: center;
+}
+/* Setting the width and height of the logo */
+#logo{
+  width: 50%;
+  height: 50%;
+}
+
+/*Products section*/
+#new{
+  font-family: "cassannet_plus_regular-webfont";
+  color: white;
+  padding-left: 4%;
+  padding-top: 1%;
+  padding-bottom: 0;
+  font-size: 90px;
+  font-weight: bold;
+}
+
+.products_container{
+  width: 100%;
+  height: auto;
+  background-color: #036D89;
+}
+.products1{
+  background-color: #036D89;
+  height: auto;
+  width: 100%;
+  margin-bottom: 1%;
+
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  justify-content: space-around;
+}
+
+.divProd{
+  height: auto;
+  box-sizing: border-box;
+}
+
+.product_Image{
+  width: 100%;
+  height: 60%;
+  padding: 10px 30px;
+}
+
+.description{
+  width: 100%;
+  height: auto;
+}
+
+.product2_title{
+  width: 100%;
+  height: auto;
+}
+
+.products3{
+  background-color: #036D89;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1%;
+
+  /* Adding flex-box style */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.products3_main_container{
+  width: 100%;
+  height: auto;
+  background-color: #036D89;
+}
+/* the numbers indicate the product div section */
+.products3_title{
+  width: 100%;
+  color: white;
+  font-weight: bold;
+}
+.products4{
+  background-color: #036D89;
+  margin-bottom: 1%;
+  height: auto;
+  width: 100%;
+}
+.products5{
+  background-color: #036D89;
+  margin-bottom: 1%;
+  height: auto;
+  width: 100%;
+}
+.products6{
+  background-color: #036D89;
+  margin-bottom: 1%;
+  height: auto;
+  width: 100%;
+}
+.blankSpace{
+  margin-bottom: 0;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+.blancDiv{
+  background-color: red;
+}
+/* *************************************hearder section******************************* */
+
+/* this is the container of the login and register anchors */
+.cart-And-Login-Container{
+  height: 100%;
+  width: 60%;
+  margin-left: 40%;
+}
+
+.a{
+  text-decoration: none;
+  color: white;
+}
+.fa-shopping-cart{
+  color: yellow;
+
+}
+.cart-icon{
+  width: 30%;
+}
+
+.cart-And-Login-Container{
+  display: flex;
+  align-items: center;
+}
+
+.loginAndRegister{
+  border-radius: 60px;
+  background-color: #D26015;
+  color: #fff;
+  width: 40%;
+  height: 20%;
+}
+/* Navigation bar Section */
+.navbar-nav{
+  width: 100%;
+}
+.nav-item{
+  padding-left: 5%;
+  font-size: 30px;
+  align-items: center;
+}
+.collapse{
+  align-items: center;
+}
+.form-group{
+  display: flex;
+  width: 35%;
+  height: 35px;
+  padding-right: 2%;
+
+}
+
+.dropdown{
+  position: relative;
+  width: 40%;
+  padding-left: 5px;
+  background-color: #036D89;
+
+  cursor: pointer;
+}
+.default-option{
+  padding: 2% 3%;
+}
+
+.dropdown-list ul{
+  list-style: none;
+  background-color: #fff;
+  color: #696969;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  border-radius: 15px;
+  display: none;
+}
+
+.dropdown-list ul.active{
+  display: block;
+}
+
+.dropdown-list ul li{
+  padding: 10px 10px 10px 1px;
+}
+
+.dropdown-list ul li i{
+  margin-right: 5px;
+}
+
+.dropdown::before{
+  content: "";
+  border-width: 6px 6px 0 6px;
+  border-style: solid;
+  border-color: white transparent;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+}
+
+.dropdown-list ul li::before{
+  content: "";
+  border-width: 0 8px 8px 8px;
+  border-style: solid;
+  border-color: #E9E9E9 transparent;
+  position: absolute;
+  bottom: 100%;
+  right: 20px;
+}
+
+.dropdown-list ul li:hover{
+  background-color: #E9E9E9 transparent;
+  color: #D26015;
+  font-weight: bold;
+  border-radius: 5px;
+}
+/* **************dropdown shop list***************************************** */
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #D26015;
+  color: #E9E9E9;
+  padding: 10px;
+  font-size: 30px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.d1 {
+  position: relative;
+  display: inline-block;
+  background-color: #D26015;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  font-size: 20px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #FF5B00;}
+
+/* Show the dropdown menu */
+.show {
+  display: block;
+}
+
+.search{
+  width: 100%;
+  height: 100%;
+}
+
+.search-input{
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding: 0 10px;
+}
+
+.search-btn{
+  background-color: #036D89;
+  width: 50px;
+  height: 100%;
+  border: 0;
+  cursor: pointer;
+}
+
+.search-btn .fa-search{
+  font-size: 22px;
+  color: #E9E9E9;
+}
+
+.search-btn .fa-search:hover{
+  font-size: 24px;
+  color: yellow;
+}
+
+input, button:focus{
+  outline: none;
+}
+.btn{
+  background-color: #D26015;
+}
+.upButton{
+  background-color: red;
+  height: 5px;
+}
+/* **************************Bottom Section************************ */
+
+.bottom{
+  font-family: 'TwCenMTStd Regular';
+  background-color: #036D89;
+  width: 100%;
+  height: auto;
+  margin-top: 50;
+}
+
+.bottom2{
+  font-family: 'TwCenMTStd Regular';
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: #D26015;
+}
+.paymentMeth{
+  color: #E9E9E9;
+  padding-left: 10%;
+}
+.paymentIcons-Container{
+  margin: auto auto auto 41%;
+  width: 20%;
+}
+.bottom3{
+  font-family: 'TwCenMTStd Regular';
+  width: 100%;
+  height: 70px;
+  background-color: #036D89;
+}
+
+.Bottom_description{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Bottom_description_div_children{
+  width: 40%;
+
+}
+.Bottom_description_container{
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* ****************************Scrollbar section************************************ */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
